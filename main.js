@@ -8,5 +8,6 @@ botoes[0].onclik = diminuitamanho;
 
 function diminuitamanho( ){
 tamanhoSenha = tamanhoSenha-1;
+numeroSenha.textContent = tamanhoSenha;
 }
 console.log(botoes);
